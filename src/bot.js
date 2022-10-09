@@ -43,7 +43,3 @@ function start(client) {
     }
   });
 }
-
-const getStage = (user) => {
-  return userBaseInMemory.db[user].stage;
-}
