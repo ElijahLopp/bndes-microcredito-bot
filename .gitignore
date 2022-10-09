@@ -102,7 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
-
+bndes-chat-bot
 # Variables
 .env
 

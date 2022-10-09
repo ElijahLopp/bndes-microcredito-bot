@@ -4,7 +4,7 @@
   "description": "BNDES HACKATHON CHAT BOT - 2022",
   "main": "index.js",
   "scripts": {
-    "build": "node src/bot.js"
+    "start": "node src/bot.js"
   },
   "repository": {
     "type": "git",
