@@ -2,13 +2,11 @@
 // import { create, Whatsapp } from 'venom-bot';
 const venom = require('venom-bot');
 const stages = require('./stages/index');
+const venomOptions = require('../venom_options.js');
 const microcreditQuestions = require('./questions/microcredit');
 
 venom
-  .create({
-    session: 'BNDES_HACKATHON_SESSION',
-    multidevice: true
-  })
+  .create(venomOptions)
   .then((client) => start(client))
   .catch((erro) => {
     console.log(erro);
