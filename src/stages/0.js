@@ -10,7 +10,7 @@ const execute = () => {
     bndesInformations += `- *${value}.* ${microcreditQuestions.questions[value].description} \n\n`
   })
 
-  bndesInformations += "_Observação: para saciar sua dúvida basta digitar a numeração indicada acima_ ☝️😉"
+  bndesInformations += "_Observação: para saciar sua dúvida basta digitar a numeração indicada acima!_ ☝️😉"
 
   return [bndesInformations]
 }
