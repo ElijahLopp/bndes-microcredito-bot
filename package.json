@@ -1,0 +1,23 @@
+{
+  "name": "bndes-microcredito-bot",
+  "version": "1.0.0",
+  "description": "BNDES HACKATHON CHAT BOT - 2022",
+  "main": "index.js",
+  "scripts": {
+    "build": "node src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElijahLopp/bndes-microcredito-bot.git"
+  },
+  "author": "Elias Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElijahLopp/bndes-microcredito-bot/issues"
+  },
+  "homepage": "https://github.com/ElijahLopp/bndes-microcredito-bot#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "venom-bot": "github:orkestral/venom"
+  }
+}
