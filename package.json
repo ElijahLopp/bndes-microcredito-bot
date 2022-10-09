@@ -18,6 +18,6 @@
   "homepage": "https://github.com/ElijahLopp/bndes-microcredito-bot#readme",
   "dependencies": {
     "lodash": "^4.17.21",
-    "venom-bot": "^3.0.20"
+    "venom-bot": "github:orkestral/venom"
   }
 }

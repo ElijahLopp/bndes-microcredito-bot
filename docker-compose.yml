@@ -1,0 +1,19 @@
+# Optional docker environment for nest with other tools
+
+version: '3.8'
+services:
+    
+    bot-container-bndes-hackathon:
+        image: bot-container/bndes-hackathon
+        build:
+            context: .
+            dockerfile: Dockerfile.dev
+        working_dir: /bot-container
+        volumes:
+            - ./:/bot-container                               # Hosting project's root folder as volume                        
+      #   env_file:
+      #       - .env
+        restart: "no"
+        ports:
+            - 3006:3006                                              
+            - "9229:9229"
