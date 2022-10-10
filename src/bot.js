@@ -14,10 +14,11 @@ venom
 
 function start(client) {
   client.onMessage((message) => {
-    const activateKey = "BNDES";
+    const activateKeyOne = "BNDES";
+    const activateKeyTwo = "Gostaria de tirar duvidas sobre microcredito!";
     const userMessageIsValidQuestion = Object.keys(microcreditQuestions.questions).includes(message.body);
 
-    if (String(message.body).toUpperCase() === activateKey || userMessageIsValidQuestion) {
+    if (String(message.body).toUpperCase() === activateKeyOne || String(message.body) === activateKeyTwo || userMessageIsValidQuestion) {
       let stageResponse = 0; // This is a default stage (0)
 
       const userMessageIsNumber = Number.isInteger(Number(message.body));
